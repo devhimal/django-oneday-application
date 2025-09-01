@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+# SECURITY WARNING: keep the secret key used iadmin@example.comn production secret!
 SECRET_KEY = 'django-insecure-a62q(!++#puye2z1ux$)&melbz*55*hs^fu+aogi4!y!906mdp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'poll.apps.PollConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
